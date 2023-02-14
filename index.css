@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.header {
+    display: flex;
+    background-color: beige;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    color: black;
+    justify-content: space-between;
+    top: 0;
+}
+
+.header h1 {
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+.header li {
+    display: inline;
+    list-style-type: none;
+    font-size: 16px;
+    color: black;
+}
+
+.header li:hover {
+    color: red;
+
+}
+
+.header ul {
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.about-me {
+    background-color: beige;
+    margin-top: 90px;
+    width: 300px;
+    height: 150px;
+    margin-left: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.project-section {
+    margin-top: 65px;
+    background-color: beige;
+    margin-left: 10px;
+    margin-right: 50%;
+    color: black;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.project-section li {
+    list-style-type: '+ ';
+    margin-bottom: 5px;
+}
+
+.skills-section {
+    border: 2px solid white;
+    border-radius: 5px;
+    color: black;
+    background-color: beige;
+}
+
+.skills-section li {
+    list-style-type: '+ ';
+    margin-bottom: 5px;
+}
+ 
