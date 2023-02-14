@@ -15,6 +15,7 @@ h2 {
     color: black;
     justify-content: space-between;
     top: 0;
+    border-bottom: 2px solid black;
 }
 
 .header h1 {
@@ -27,54 +28,103 @@ h2 {
     list-style-type: none;
     font-size: 16px;
     color: black;
+    padding-left: 5px;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 .header li:hover {
     color: red;
-
+    cursor: pointer;
 }
 
 .header ul {
-    padding-top: 10px;
     padding-right: 10px;
+    align-self: center;
+}
+
+.about-and-projects {
+    display: inline-flex;
 }
 
 .about-me {
     background-color: beige;
     margin-top: 90px;
-    width: 300px;
-    height: 150px;
-    margin-left: 20px;
-    border: 2px solid white;
+    width: 30%;
+    height: auto;
+    margin-left: 10px;
+    border: 2px solid black;
     border-radius: 10px;
     padding: 10px;
 }
 
+.about-me h2 {
+    font-size: 25px;
+}
+
 
 .project-section {
-    margin-top: 65px;
+    margin-top: 90px;
     background-color: beige;
     margin-left: 10px;
-    margin-right: 50%;
     color: black;
-    border: 2px solid white;
-    border-radius: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: auto;
 }
 
 .project-section li {
     list-style-type: '+ ';
     margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 20px;
 }
 
+.project-section li:hover {
+    color: red;
+    cursor: pointer;
+}
+
+
 .skills-section {
-    border: 2px solid white;
-    border-radius: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
     color: black;
     background-color: beige;
+    padding: 10px;
+    margin-top: 20px;
+    width: 30%;
+    margin-left: 10px;
+    display: inline-block;
+    height: 400px;
 }
 
 .skills-section li {
-    list-style-type: '+ ';
+    list-style-type: '* ';
     margin-bottom: 5px;
 }
  
+.contact-info {
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+    background-color: beige;
+    padding: 10px;
+    width: 30%;
+    margin-left: 10px;
+    margin-top: 20px;    
+}
+
+.contact-info li {
+    list-style-type: ':)  ';
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.contact-info h3 {
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+
