@@ -13,9 +13,9 @@
     <div class="header">
         <h1>Javier Vaca Lopez</h1>
         <ul class="nav bar">
-            <li>About Me</li>
-            <li>Projects</li>
-            <li>Contact</li> 
+            <a href="#skills-link-from-nav"><li>Skills</li></a>
+            <a href="#project-link-from-nav"><li>Projects</li></a>
+            <a href="#contact-link-from-nav"><li>Contact</li></a>
         </ul>
     </div>
     <div class="about-and-projects">
@@ -25,7 +25,7 @@
 
         </div>
 
-        <div class="project-section">
+        <a id="project-link-from-nav"><div class="project-section">
             <h2>Projects</h2>
                 <ul class="project-list">
                     <li id="project-1" onclick="toggle()">Message Generator</li>
@@ -35,10 +35,10 @@
                     <li id="project-3" onclick="toggle2()">Add project here</li>
                         <p id="project-3-desc" >Add description here</p>
                 </ul>
-        </div>
+        </div></a>
     </div>
 
-    <div class="skills-section">
+    <div class="skills-section"><a id="skills-link-from-nav">
         <h2>Current Skills</h2>
             <ul class="skills-list">
                 <li>Javascript</li>
@@ -53,16 +53,16 @@
                 <li>Dev Ops</li>
                 <li>API</li>
             </ul>
-    </div>
-
-    <footer class="contact-info">
-        <h3>Contact Info</h3>
+        </a></div>
+    
+    <a id="contact-link-from-nav"><footer class="contact-info">
+        <h3>Contact Info:</h3>
             <ul class="contact-list">
-                <li>Email</li>
+                <li class="email">Email</li>
                     <p>javiervaca2003@gmail.com</p>
                 <li class="github-link">GitHub</li>
             </ul>
-    </footer>
+    </footer></a>
 
     <script src="script.js"></script>
     

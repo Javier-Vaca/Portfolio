@@ -5,7 +5,7 @@ var x = document.getElementById("project-1-desc");
 var y = document.getElementById("project-2-desc");
 var z = document.getElementById("project-3-desc");
 
-x.style.display = 'none';
+x.style.display = 'block';
 y.style.display = 'none';
 z.style.display = 'none';
 

@@ -59,9 +59,25 @@ h2 {
 }
 
 .about-me h2 {
-    font-size: 25px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    bottom: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+    left: -12px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
+.about-me p {
+    margin-top: -10px;
+}
 
 .project-section {
     margin-top: 90px;
@@ -72,6 +88,28 @@ h2 {
     border-radius: 10px;
     padding: 10px;
     width: auto;
+    height: auto;
+}
+
+.project-section h2 {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    bottom: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+    left: -12px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.project-section ul {
+    margin-top: -10px;
 }
 
 .project-section li {
@@ -97,7 +135,28 @@ h2 {
     width: 30%;
     margin-left: 10px;
     display: inline-block;
-    height: 400px;
+    height: auto;
+}
+
+.skills-section h2 {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    bottom: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+    left: -12px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.skills-section ul {
+    margin-top: 0;
 }
 
 .skills-section li {
@@ -106,25 +165,42 @@ h2 {
 }
  
 .contact-info {
-    border: 2px solid black;
-    border-radius: 10px;
+    border-top: 2px solid black;
     color: black;
     background-color: beige;
-    padding: 10px;
-    width: 30%;
-    margin-left: 10px;
-    margin-top: 20px;    
+    padding: 10px 0 20px 0;
+    width: 100%;
+    margin: 20px 0 0 0;
+    height: auto;  
+    display: flex;
 }
 
 .contact-info li {
-    list-style-type: ':)  ';
+    list-style-type: 'x  ';
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.github-link {
+    position: absolute;
+    left: 215px;
+    bottom: 70px;
+}
+
+.github-link:hover {
+    color: red;
+    cursor: pointer;
 }
 
 .contact-info h3 {
     text-decoration: underline;
-    font-size: 25px;
+    font-size: 20px;
+    margin-left: 20px;
+    position: relative;
+    bottom: 10px;
+    margin-right: 20px;
 }
 
 
